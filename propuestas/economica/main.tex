@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% Configuración de página
+\geometry{left=2.5cm,right=2.5cm,top=3cm,bottom=3cm}
+
+% Configuración de encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Propuesta Económica - UNICEF}
+\fancyhead[R]{Empresa Kuya}
+\fancyfoot[C]{\thepage}
+
+% Configuración de títulos
+\titleformat{\section}{\Large\bfseries\color{blue!70!black}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% Configuración de hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Propuesta Económica UNICEF},
+    pdfauthor={Empresa Kuya}
+}
+
+\begin{document}
+
+% Incluir portada
+\input{0_portada.tex}
+
+% Tabla de contenidos
+\tableofcontents
+\newpage
+
+% Incluir secciones
+\input{1_resumen_ejecutivo.tex}
+\newpage
+
+\input{2_desglose_costos.tex}
+\newpage
+
+\input{3_recursos_tarifas.tex}
+\newpage
+
+\input{4_cronograma_pagos.tex}
+\newpage
+
+\input{5_analisis_costo_beneficio.tex}
+\newpage
+
+\input{6_terminos_condiciones.tex}
+\newpage
+
+\input{7_anexos.tex}
+
+\end{document}
