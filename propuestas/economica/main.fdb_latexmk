@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1761404201.01372 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/economica/main.tex" "main.pdf" "main" 1761404202.38404 0
-  "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/economica/main.tex" 1761404184.63 1430 c561679b23b40e9f3d6703cd68e50e18 ""
+["pdflatex"] 1761412029.84531 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/economica/main.tex" "main.pdf" "main" 1761412031.30992 0
+  "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/economica/main.tex" 1761412026.54 1430 c561679b23b40e9f3d6703cd68e50e18 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcbx1200.tfm" 1136768653 1536 c09172c8f235393e6235bb4758357c41 ""
@@ -110,10 +110,10 @@
   "5_analisis_costo_beneficio.tex" 1761404137.59 2208 7158825c9a2dc5e49ae04d3516b9c9a5 ""
   "6_terminos_condiciones.tex" 1761404152.92 2843 2712995108a74aab60d0b529dfe54987 ""
   "7_anexos.tex" 1761404179.1 3352 08c57cd6ff768611241e275e06550561 ""
-  "main.aux" 1761404201.85 7466 54070b19c53672170291378ba50a3eed "pdflatex"
-  "main.out" 1761404201.9 7420 6e2e0da2963399adcdf1683f4735e3ac "pdflatex"
-  "main.tex" 1761404184.63 1430 c561679b23b40e9f3d6703cd68e50e18 ""
-  "main.toc" 1761404202.16 3661 9cc0409c3b5a65bee6cdc24e4af210a1 "pdflatex"
+  "main.aux" 1761412030.75 7466 54070b19c53672170291378ba50a3eed "pdflatex"
+  "main.out" 1761412030.84 7420 6e2e0da2963399adcdf1683f4735e3ac "pdflatex"
+  "main.tex" 1761412026.54 1430 c561679b23b40e9f3d6703cd68e50e18 ""
+  "main.toc" 1761412031.09 3661 9cc0409c3b5a65bee6cdc24e4af210a1 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

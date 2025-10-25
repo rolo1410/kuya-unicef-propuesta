@@ -1,1 +1,72 @@
 
+\section{Recursos Técnicos}
+
+\subsection{Infraestructura de Servidores}
+
+Para la implementación exitosa del sistema, se requiere la siguiente infraestructura de servidores en el Ministerio de Salud Pública:
+
+\subsubsection{Servidores de Aplicación}
+
+En la posible implementación on-premise, se requieren los siguientes servidores dedicados:
+\begin{itemize}
+    \item \textbf{Servidor Web Principal}: Servidor dedicado para alojar la aplicación web del sistema, herramientas de cache y balanceo de carga.
+    \item \textbf{Servidor de Servicios}: Servidor dedicado para la gestión de servicios backend y APIs
+    \item \textbf{Servidor de Analítica}: Servidor dedicado para procesamiento de datos y generación de reportes
+\end{itemize}
+\textbf{Nota}: Es importante mantener una reunión con el equipo de infraestructura del Ministerio de Educación, cultura y deporte para validar las especificaciones técnicas y compatibilidad con la infraestructura existente, así también realizar un análisis de dimensionamiento basado en la carga esperada y el crecimiento futuro.
+
+\subsubsection{Servidores de desarrollo y Pruebas}
+Para el desarrollo y pruebas del sistema, se requiere al menos un servidor adicional, que nos permita realizar pruebas en un entorno controlado antes de la implementación en producción, ademas tambien servirá para el desarrollo colaborativo entre los consultores y el equipo técnico del Ministerio de Educación, cultura y deporte.
+
+\begin{itemize}
+    \item \textbf{Servidor desarrollo}: Servidor dedicado para alojar la aplicación y todos sus artefactos en un entorno de desarrollo y pruebas, de ser necesario debe contar con acceso o publicación externa para facilitar el trabajo remoto de los consultores.
+\end{itemize}
+
+\subsubsection{Especificaciones Técnicas Mínimas}
+\begin{itemize}
+    \item Procesador: Intel Xeon o equivalente, mínimo 8 núcleos
+    \item Memoria RAM: recomendado 16 GB
+    \item Almacenamiento: SSD de 64 GB mínimo con capacidad de expansión
+    \item Sistema Operativo: Linux Ubuntu Server LTS
+    \item Conectividad: Gigabit Ethernet
+\end{itemize}
+
+\subsection{Conectividad y Accesos}
+\subsubsection{Acceso vía VPN}
+Es necesario que el ministerio de Educación, cultura y deporte proporcione los siguientes servicios.
+\begin{itemize}
+    \item Conexión de alta velocidad a través de la infraestructura VPN del Ministerio de Educación, cultura y deporte para accesos remotos seguros.
+    \item Configuración de reglas de firewall para permitir el acceso a los puertos necesarios para la operación del sistema y el desarrollo fluido con acceso a internet seguro no limitado.
+\end{itemize}
+
+\subsection{Equipos de Cómputo}
+
+\subsubsection{Estaciones de Trabajo}
+\begin{itemize}
+    \item \textbf{Equipos de computo}: 
+    Cada uno de los consultores participantes cuenta con sus propios equipos personales portátiles, es necesario contar con al menos 2 estaciones de trabajo adicionales en las instalaciones del Ministerio de Salud Pública las estaciones deben contar con las conexiones necesarias de energia eléctrica, red interna y externa y monitor extra.
+    \item \textbf{Equipo de acceso remoto}: Laptop o computadora de escritorio con capacidad para ejecutar software de desarrollo y herramientas de comunicación mediante conexión any desk o VPC, ubicada en las instalaciones del Ministerio de Educación, cultura y deporte.
+\end{itemize}
+
+\subsection{Software y Licencias}
+El ministerio de Educación, cultura y deporte deberá contar con las siguientes licencias de software para el correcto funcionamiento del sistema:
+dado que el software propuesto es de código abierto, no se requieren licencias específicas para su uso, sin embargo, es necesario contar con licencias para los siguientes componentes auxiliares:
+\begin{itemize}
+    \item Licencias de ORACLE.
+    \item Licencias de Power BI, Tableau o similar para análisis de datos.
+    \item Licencias de software de seguridad y antivirus.
+    \item Herramientas de monitoreo y administración de sistemas.
+    \item Certificados SSL para comunicaciones seguras.
+    \item Conexión a servicios en la nube (si aplica).
+    \item Conexion VPN para accesos remotos seguros.
+\end{itemize}
+
+\subsection{Consideraciones de Seguridad}
+
+Para garantizar la seguridad de la información y la integridad del sistema, se deben implementar las siguientes medidas de seguridad:
+
+\begin{itemize}
+    \item Implementación de firewalls y sistemas de detección de intrusos
+    \item Políticas de respaldo automático diario
+    \item Auditoría y logs de acceso al sistema
+\end{itemize}

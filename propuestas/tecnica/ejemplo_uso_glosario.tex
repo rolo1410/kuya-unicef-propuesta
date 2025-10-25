@@ -1,0 +1,43 @@
+% EJEMPLO DE USO DEL GLOSARIO
+% ===========================
+% Este archivo muestra cómo referenciar términos del glosario en el texto
+
+\section{Ejemplo de Uso del Glosario}
+
+\subsection{Referencias Simples}
+% Para hacer referencia a un término del glosario, usa \gls{término}
+
+En este proyecto utilizaremos \gls{api} para la comunicación entre el \gls{frontend} 
+y el \gls{backend}. La \gls{database} será implementada usando \gls{postgresql}.
+
+\subsection{Referencias Múltiples}
+% Primera referencia mostrará la definición completa, referencias subsecuentes solo el término
+
+La metodología \gls{agile} con \gls{scrum} permitirá entregas iterativas. 
+En el segundo \gls{sprint}, implementaremos las \gls{api} principales.
+
+\subsection{Referencias en Plural}
+% Para plural, usa \glspl{término}
+
+Los \glspl{stakeholder} de UNICEF evaluarán los \glspl{deliverable} en cada \gls{milestone}.
+
+\subsection{Solo la Descripción}
+% Para mostrar solo la descripción, usa \glsdesc{término}
+
+\gls{jwt}: \glsdesc{jwt}
+
+\subsection{Forzar Forma Completa}
+% Para forzar la forma completa (término + descripción), usa \Gls{término}
+
+\Gls{microservices} será la arquitectura elegida para este proyecto.
+
+% COMANDOS ÚTILES DEL GLOSARIO:
+% =============================
+% \gls{término}        - Referencia normal (primera vez: completa, después: solo término)
+% \Gls{término}        - Igual que \gls pero con primera letra en mayúscula
+% \glspl{término}      - Forma plural
+% \Glspl{término}      - Forma plural con primera letra en mayúscula
+% \glsdesc{término}    - Solo la descripción
+% \glslink{término}{texto} - Enlace personalizado al glosario
+% \glsfirst{término}   - Siempre muestra la forma completa
+% \glsreset{término}   - Resetea el término para que la próxima referencia sea completa

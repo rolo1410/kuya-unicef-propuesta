@@ -14,6 +14,9 @@
 \usepackage{xcolor}
 \usepackage{titlesec}
 
+% Paquete para glosario
+\usepackage[acronym,toc,nonumberlist]{glossaries}
+
 % Configuración de página
 \geometry{left=2.5cm,right=2.5cm,top=3cm,bottom=3cm}
 
@@ -34,9 +37,12 @@
     linkcolor=blue!70!black,
     filecolor=magenta,
     urlcolor=cyan,
-    pdftitle={Propuesta Económica UNICEF},
+    pdftitle={Propuesta Técnica UNICEF},
     pdfauthor={Empresa Kuya}
 }
+
+% Cargar definiciones del glosario
+\input{glosario.tex}
 
 \begin{document}
 
@@ -56,6 +62,9 @@
 \input{3_alcance.tex}
 \newpage
 
+\input{3_perfil_institucion.tex}
+\newpage
+
 \input{4_metodologia.tex}
 \newpage
 
@@ -69,6 +78,10 @@
 \newpage
 
 \input{8_conclusiones.tex}
+\newpage
+
+% Glosario de términos
+\printglossary[title={Glosario de Términos},toctitle={Glosario de Términos}]
 \newpage
 
 \input{9_anexos.tex}
