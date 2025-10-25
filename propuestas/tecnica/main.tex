@@ -1,18 +1,77 @@
-PROPUESTA TÉCNICA
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{titlesec}
 
-Proyecto: Sistema Unificado UNICEF
-Fecha: [Fecha]
-Versión: 1.0
+% Configuración de página
+\geometry{left=2.5cm,right=2.5cm,top=3cm,bottom=3cm}
 
-ÍNDICE
+% Configuración de encabezados y pies de página
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{Propuesta Económica - UNICEF}
+\fancyhead[R]{Empresa Kuya}
+\fancyfoot[C]{\thepage}
 
-1. RESUMEN EJECUTIVO
-2. OBJETIVOS DEL PROYECTO
-3. ALCANCE TÉCNICO
-4. ARQUITECTURA PROPUESTA
-5. METODOLOGÍA DE DESARROLLO
-6. CRONOGRAMA
-7. RECURSOS TÉCNICOS
-8. PRESUPUESTO
-9. RIESGOS Y MITIGACIÓN
-10. CONCLUSIONES
+% Configuración de títulos
+\titleformat{\section}{\Large\bfseries\color{blue!70!black}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries}{\thesubsection}{1em}{}
+
+% Configuración de hipervínculos
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    filecolor=magenta,
+    urlcolor=cyan,
+    pdftitle={Propuesta Económica UNICEF},
+    pdfauthor={Empresa Kuya}
+}
+
+\begin{document}
+
+% Incluir portada
+\input{0_portada.tex}
+
+% Tabla de contenidos
+\tableofcontents
+\newpage
+
+% Incluir secciones
+\newpage
+
+\input{2_objetivos.tex}
+\newpage
+
+\input{3_alcance.tex}
+\newpage
+
+\input{4_metodologia.tex}
+\newpage
+
+\input{5_arquitectura.tex}
+\newpage
+
+\input{6_recursos_tecnicos.tex}
+\newpage
+
+\input{7_riesgo_mitigacion.tex}
+\newpage
+
+\input{8_conclusiones.tex}
+\newpage
+
+\input{9_anexos.tex}
+\newpage
+
+\end{document}
