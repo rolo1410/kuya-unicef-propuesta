@@ -276,6 +276,9 @@ INPUT 7_riesgo_mitigacion.tex
 INPUT ./8_conclusiones.tex
 INPUT ./8_conclusiones.tex
 INPUT 8_conclusiones.tex
+INPUT ./10_firmas.tex
+INPUT ./10_firmas.tex
+INPUT 10_firmas.tex
 INPUT ./9_anexos.tex
 INPUT ./9_anexos.tex
 INPUT 9_anexos.tex

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1761425556.91644 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/tecnica/main.tex" "main.pdf" "main" 1761425559.10831 0
-  "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/tecnica/main.tex" 1761415584.35 1737 ede47eca542165aa7f0660db4c912871 ""
+["pdflatex"] 1761425852.18152 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/tecnica/main.tex" "main.pdf" "main" 1761425854.35807 0
+  "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/tecnica/main.tex" 1761425849.42 1769 ac39e93b7c8edde7f40964addfaa365e ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -124,6 +124,7 @@
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1741624097 3345735 47b4d4927355c2c3a0143e7e25320f0a ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "0_portada.tex" 1761412229.48 1321 c8d30fd8d409fe078aae69ab3e5f834b ""
+  "10_firmas.tex" 1761425835.6 423 a540ff573bc8ba6bc76ff6be1ac08f29 ""
   "2_objetivos.tex" 1761406372.29 2059 f49752da8effd82332d927703e2731bc ""
   "3_alcance.tex" 1761411369.03 2348 1e63ef8ada8b4a469c26523cbff19756 ""
   "3_perfil_institucion.tex" 1761422460.3 7949 66691a2cb4d6a4015fda8dc817e4d8e8 ""
@@ -134,11 +135,11 @@
   "8_conclusiones.tex" 1761403775.04 0 d41d8cd98f00b204e9800998ecf8427e ""
   "9_anexos.tex" 1761404857.75 0 d41d8cd98f00b204e9800998ecf8427e ""
   "glosario.tex" 1761411678.33 11074 70ef5ef1e555cb3bacf7242c0b754030 ""
-  "main.aux" 1761425558.36 8938 50a750379ddcca519d9d83e5da0e125f "pdflatex"
+  "main.aux" 1761425853.64 9042 45f6a1923616e96f23122a167a2235d8 "pdflatex"
   "main.gls" 0 -1 0 ""
-  "main.out" 1761425558.42 10882 41ba8264d78a86f349a9a42574333650 "pdflatex"
-  "main.tex" 1761415584.35 1737 ede47eca542165aa7f0660db4c912871 ""
-  "main.toc" 1761425558.73 5668 8f120b9f3973baa2966280f3981ceaa2 "pdflatex"
+  "main.out" 1761425853.69 10956 78f21693c3318eb5d25b6d72f1dbb649 "pdflatex"
+  "main.tex" 1761425849.42 1769 ac39e93b7c8edde7f40964addfaa365e ""
+  "main.toc" 1761425854.02 5731 3a92dce16cdf9694f6008fbd65c9adc4 "pdflatex"
   (generated)
   "main.acn"
   "main.aux"
