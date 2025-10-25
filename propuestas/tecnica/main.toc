@@ -2,3 +2,6 @@
 \contentsline {section}{\numberline {1}Objetivos}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Objetivo Principal}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Objetivos Específicos}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Alcance}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Funcionalidades principales}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Gestión de usuarios}{4}{subsection.2.2}%

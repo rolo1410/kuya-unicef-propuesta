@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761410504.9462 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/tecnica/main.tex" "main.pdf" "main" 1761410506.26298 0
+["pdflatex"] 1761411369.31681 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/tecnica/main.tex" "main.pdf" "main" 1761411370.64225 0
   "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/tecnica/main.tex" 1761405006.17 1451 20d3b0eafce58cb6318ab74354ed47b6 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -99,17 +99,17 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "0_portada.tex" 1761404527.18 1310 72cb1dc3e0e38e46f67d779efacacb8f ""
   "2_objetivos.tex" 1761406372.29 2059 f49752da8effd82332d927703e2731bc ""
-  "3_alcance.tex" 1761410503.23 338 56603c14678db24819a16384d0a13ba3 ""
+  "3_alcance.tex" 1761411369.03 2348 1e63ef8ada8b4a469c26523cbff19756 ""
   "4_metodologia.tex" 1761405001.05 0 d41d8cd98f00b204e9800998ecf8427e ""
   "5_arquitectura.tex" 1761403646.78 0 d41d8cd98f00b204e9800998ecf8427e ""
   "6_recursos_tecnicos.tex" 1761403784.32 1 68b329da9893e34099c7d8ad5cb9c940 ""
   "7_riesgo_mitigacion.tex" 1761403759.7 0 d41d8cd98f00b204e9800998ecf8427e ""
   "8_conclusiones.tex" 1761403775.04 0 d41d8cd98f00b204e9800998ecf8427e ""
   "9_anexos.tex" 1761404857.75 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "main.aux" 1761410505.85 722 a22efe6b6d5417bf7414f72650aee505 "pdflatex"
-  "main.out" 1761410505.9 406 3ec234e6276640d7f94ccb175e4bfc87 "pdflatex"
+  "main.aux" 1761411370.18 1087 7b0fc593076db226e53f9dd75407a72c "pdflatex"
+  "main.out" 1761411370.23 840 cbaaa45509b676d49a7781f82b98c447 "pdflatex"
   "main.tex" 1761405006.17 1451 20d3b0eafce58cb6318ab74354ed47b6 ""
-  "main.toc" 1761410506.13 267 08ec998de81dd349eaa6b6cf4396f816 "pdflatex"
+  "main.toc" 1761411370.48 509 2e48b0d8e1415891b963e7242597387a "pdflatex"
   (generated)
   "main.aux"
   "main.log"

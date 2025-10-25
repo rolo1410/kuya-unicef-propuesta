@@ -1,1 +1,34 @@
-El alcance principal es la mejora funcional y reestructuración del SAT a través del desarrollo e implementación de nuevos módulos y la reestructuración de los existentes. El desarrollo debe realizarse sobre la base tecnológica actual del SAT, garantizando interoperabilidad con sistemas institucionales, trazabilidad y escalabilidad
+\section{Alcance}
+\subsection{Funcionalidades principales}
+El alcance principal es la mejora funcional y reestructuración del SAT a través del desarrollo e implementación de nuevos módulos y la reestructuración de los existentes. El desarrollo debe realizarse sobre la base tecnológica actual del SAT, garantizando interoperabilidad con sistemas institucionales, trazabilidad y escalabilidad.
+
+Se espera que la solución tecnológica propuesta incluya, pero no se limite a, los siguientes componentes:
+
+\textbf{Administración:} Permite a usuarios designados (Técnico de Riesgos Nacional) modificar parámetros de la herramienta.
+\begin{itemize}
+    \item Gestión de catálogos
+    \item Gestión de macro eventos
+    \item Gestión de usuarios
+    \item Carga masiva de eventos
+\end{itemize}
+
+\textbf{Eventos Adversos:} Permite el registro detallado, gestión (modificación, seguimiento, cierre), revisión y aprobación de información sobre eventos adversos y la gestión de alojamientos temporales.
+\begin{itemize}
+    \item Agregar Nuevo Evento
+    \item Consulta de Eventos Creados
+    \item Alojamientos Temporales en IE
+\end{itemize}
+
+\textbf{Visualizador:} Permite la visualización de información consolidada en formato ejecutivo con mapas interactivos, filtros, buscadores y la generación de reportes automatizados para la toma de decisiones.
+\begin{itemize}
+    \item Visualización
+\end{itemize}
+
+\subsection{Gestión de usuarios}
+Se deben implementar tres roles de usuarios con acceso diferenciado a la herramienta:
+
+\textbf{Técnico de Riesgos Nacional (Administrador):} Encargado de la gestión de información a nivel nacional. Puede realizar modificaciones, revisiones y aprobaciones de cualquier evento y tiene acceso a todos los módulos (ADMINISTRACIÓN, EVENTOS ADVERSOS, VISUALIZACIÓN). Es el único que puede eliminar eventos y administrar el sistema.
+
+\textbf{Técnico de Riesgos Zonal:} Encargado de la gestión de información a nivel zonal (dentro de su zona). Puede modificar y revisar eventos dentro de su zona, y tiene acceso al módulo EVENTOS ADVERSOS y VISUALIZACIÓN.
+
+\textbf{Técnico de Riesgos Distrital:} Encargado de la gestión de información a nivel distrital (dentro de su distrito). Puede modificar eventos dentro de su distrito, y tiene acceso al módulo EVENTOS ADVERSOS y VISUALIZACIÓN.
