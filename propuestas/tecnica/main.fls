@@ -278,6 +278,11 @@ INPUT 4_metodologia.tex
 INPUT ./5_arquitectura.tex
 INPUT ./5_arquitectura.tex
 INPUT 5_arquitectura.tex
+INPUT ./graficos/arquitectura.png
+INPUT ./graficos/arquitectura.png
+INPUT ./graficos/arquitectura.png
+INPUT ./graficos/arquitectura.png
+INPUT ./graficos/arquitectura.png
 INPUT ./6_recursos_tecnicos.tex
 INPUT ./6_recursos_tecnicos.tex
 INPUT 6_recursos_tecnicos.tex
