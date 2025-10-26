@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  25 OCT 2025 20:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  25 OCT 2025 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,6 +650,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
+
+ []
+
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -658,7 +673,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}])
+[8{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -925,11 +945,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15] (./5_arquitectura.tex
-<graficos/arquitectura.png, id=394, 783.92876pt x 754.82pt>
+<graficos/arquitectura.png, id=404, 783.92876pt x 753.81625pt>
 File: graficos/arquitectura.png Graphic file (type png)
 <use graficos/arquitectura.png>
 Package pdftex.def Info: graficos/arquitectura.png  used on input line 9.
-(pdftex.def)             Requested size: 364.19667pt x 350.67671pt.
+(pdftex.def)             Requested size: 364.19667pt x 350.21037pt.
 
 
 
@@ -1064,21 +1084,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D29B23290802F746C389C1ED66C25C01;10006.
+(rerunfilecheck)             Checksum: 9DB84E213C382990644FCB53F373182B;10114.
  ) 
 Here is how much of TeX's memory you used:
- 21069 strings out of 473190
- 373783 string characters out of 5715800
+ 21072 strings out of 473190
+ 373855 string characters out of 5715800
  848116 words of memory out of 5000000
- 43932 multiletter control sequences out of 15000+600000
+ 43933 multiletter control sequences out of 15000+600000
  568158 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,2429b,802s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (26 pages, 202570 bytes).
+Output written on main.pdf (26 pages, 205417 bytes).
 PDF statistics:
- 514 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
- 109 named destinations out of 1000 (max. 500000)
- 470 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 524 PDF objects out of 1000 (max. 8388607)
+ 471 compressed objects within 5 object streams
+ 111 named destinations out of 1000 (max. 500000)
+ 486 words of extra memory for PDF output out of 10000 (max. 10000000)
 

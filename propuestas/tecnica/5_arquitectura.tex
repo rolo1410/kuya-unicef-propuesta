@@ -2,7 +2,7 @@
 
 \subsection{Visión General de la Arquitectura}
 
-La arquitectura propuesta para el sistema KUYA-UNICEF se basa en un enfoque modular y escalable que garantiza la flexibilidad, mantenibilidad y rendimiento del sistema. La solución adopta una arquitectura de microservicios con patrones modernos de desarrollo.
+La arquitectura propuesta para el sistema SAT se basa en un enfoque modular y escalable que garantiza la flexibilidad, mantenibilidad y rendimiento del sistema. La solución adopta una arquitectura de microservicios con patrones modernos de desarrollo.
 
 \begin{figure}[h]
 \centering
@@ -14,30 +14,52 @@ La arquitectura propuesta para el sistema KUYA-UNICEF se basa en un enfoque modu
 \subsection{Componentes Principales}
 En continuidad con los productos existentes expuestos en los terminos de referencia, la arquitectura se compone de los siguientes módulos principales:
 
-\subsubsection{Capa de Presentación}
+\subsection{Capa de exposición}
+la capa de exposición es la encargada de interactuar con los usuarios finales y otros sistemas externos. Esta capa está compuesta por las herramientas de frontera como firewalls, balanceadores de carga y API gateways que aseguran la seguridad y el rendimiento del sistema.
+
+\subsubsection{Servidor WEB}
 En continuidad con las tecnologias indicadas en los terminos de referencia, las implmementaciones propuestas incluyen:
+
 \begin{itemize}
-    \item \textbf{Integracion SSO}: Implementar la autenticación única (SSO) utilizando el sistema existente en el Ministerio de Educación, cultura y deporte.
-    \item \textbf{Frontend Web}: Aplicación Angular con manejo de autenticación y autorización basado en roles RBAC, con diseño adaptable para tablets y dispositivos móviles.
-    \item \textbf{Dashboard de Monitoreo}: Visualización interactiva de datos y alertas en tiempo real, utilizando bibliotecas como D3.js o Chart.js.
-    Implmetación de Dashboard interactivo avanzado desarrollado con streamlit de python.
+    \item \textbf{Portal web, SAT-WEB}: Interfaz web para la gestión del sistema, incluyendo configuración, monitoreo y administración de usuarios.
+    
+    \begin{itemize}
+        \item \textbf{Integracion SSO}: Implementar la autenticación única (SSO) utilizando el sistema existente en el Ministerio de Educación, cultura y deporte.
+        \item \textbf{Frontend Web}: Aplicación Angular con manejo de autenticación y autorización basado en roles RBAC, con diseño adaptable para tablets y dispositivos móviles.
+        \item \textbf{Módulo de usuarios}: Visualización interactiva de datos y alertas en tiempo real, utilizando bibliotecas como D3.js o Chart.js.
+        \item \textbf{Modulo de administración}: Implementación de Dashboard interactivo avanzado desarrollado con Streamlit de Python.
+        \item \textbf{Módulo de eventos adversos}: Gestión de los eventos adversos.
+    \end{itemize}
+    \item \textbf{Analitica, SAT-ANALITICS}: El módulo de analitica será el encargado de la presentación de los datos analizados, generando reportes y visualizaciones para la toma de decisiones. 
+    Fundamentalmente estará compuesto por:
+        \begin{itemize}
+            \item \textbf{Análisis}: Creación de reportes personalizados en formatos PDF y Excel, utilizando bibliotecas como JasperReports o Apache POI.
+            \item \textbf{Reportes}: Gráficos y tablas interactivas para el análisis de tendencias y patrones, integrándose con herramientas de BI como Power BI o Tableau.
+        \end{itemize}
 \end{itemize}
 
 \subsubsection{Capa de Servicios}
 \begin{itemize}
-    \item \textbf{API Gateway}: Punto de entrada único para todas las solicitudes basadas en servicios RESTful, gestionando la seguridad y el enrutamiento, documentación con Swagger.
-    \item \textbf{Balanceador de Carga}: Distribución eficiente del tráfico, mediante el uso de NGINX
-    \item \textbf{Servicio de Autenticación}: Gestión de usuarios y permisos, basado en OAuth2 y JWT, integrándose con el SSO existente.
-    \item \textbf{Servicio de Datos}: Procesamiento de los datos para la generación de analisis y reportes, generando una base de datos de analisis intermedia.
-    \item \textbf{Servicio de Notificaciones}: Alertas y comunicaciones
+    \item \textbf{SAT-SERVICES}: Punto de entrada único para todas las solicitudes basadas en servicios RESTful, gestionando la seguridad y el enrutamiento, documentación con Swagger.\\
+    Producto construido con Java Spring Boot, con arquitectura de microservicios, basado en arquitectura hexagonal, con integración a diferentes fuentes de datos.
+    \begin{itemize}
+        \item \textbf{Módulo de Gestión de Usuarios}: Manejo de autenticación y autorización basado en roles RBAC, integrándose con el sistema SSO existente.
+        \item \textbf{Módulo de Eventos Adversos}: Gestión de los eventos adversos, incluyendo la detección, notificación y análisis de incidentes.
+        \item \textbf{Módulo de Configuración}: Gestión de parámetros del sistema, incluyendo umbrales de alerta, reglas de negocio y configuraciones específicas del cliente.
+        \item \textbf{Módulo de Auditoria}: Registro y seguimiento de todas las acciones realizadas en el sistema, garantizando la trazabilidad y cumplimiento normativo.
+        \item \textbf{Módulo de Notificaciones}: Gestión del envío de alertas y notificaciones a través de diferentes canales (correo electrónico, SMS, etc.).
+    \end{itemize}
+    \item \textbf{SAT-ETL-ANALITICS}: Paquete encargado de la extracción, transformación y carga de datos para el módulo de analítica, desarrollado en python, implementando un pipeline encargado de la generación de una base de datos de análisis.
 \end{itemize}
 
-\subsubsection{Capa de Datos}
-\begin{itemize}
-    \item \textbf{Base de Datos Principal}: PostgreSQL para datos transaccionales
-    \item \textbf{Data Warehouse}: Para análisis y reportes históricos
-    \item \textbf{Cache}: Redis para optimización de rendimiento
-\end{itemize}
+\subsubsection{SSO}
+Sistema de autenticación única (SSO) existente en el Ministerio de Educación, cultura y deporte, utilizando protocolos estándar como OAuth2 o SAML para garantizar la seguridad y facilidad de acceso a los usuarios autorizados.
+
+\subsubsection{SMTP}
+Sistema de gestión de correo electrónico que permite el envío y recepción de correos electrónicos
+
+\subsubsection{ORACLE}
+Sistema de gestión de bases de datos relacional que permite el almacenamiento y recuperación de datos de manera eficiente y segura.
 
 \subsection{Tecnologías Propuestas}
 En continuidad de las tecnologias indicadas en los terminos de referencia, se propone el siguiente stack tecnológico:
@@ -48,11 +70,15 @@ En continuidad de las tecnologias indicadas en los terminos de referencia, se pr
 \hline
 \textbf{Componente} & \textbf{Tecnología} \\
 \hline
-Backend & Java Spring \\
-Frontend & Angular \\
-Base de Datos & ORACLE \\
-MenCache & Redis \\
-CI/CD & GitLab CI \\
+Backend & Java Springm, JPA, smpt,  \\
+\hline
+Frontend & Angular, chart.js, primereact\\
+\hline
+Frontend analitics & Streamlit \\
+\hline
+Base de Datos transaccional & ORACLE \\
+\hline
+Base de Datos analitica & DUCKDB \\
 \hline
 \end{tabular}
 \caption{Stack Tecnológico Propuesto}

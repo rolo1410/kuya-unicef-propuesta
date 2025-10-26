@@ -1,42 +1,42 @@
 <mxfile host="65bd71144e">
     <diagram id="s8_tCFXMnq9FvnXNB_g6" name="Página-1">
-        <mxGraphModel dx="1839" dy="1976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1324" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="25" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="-40" y="-165" width="780" height="750" as="geometry"/>
                 </mxCell>
-                <mxCell id="2" value="Servidor WEB" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="2" value="Servidor WEB" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="20" y="-5" width="290" height="285" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="Serivodr BackEND" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="4" value="Serivodr BackEND" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="20" y="300" width="300" height="260" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Servidor ORACLE" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="414" y="390" width="145" height="110" as="geometry"/>
+                <mxCell id="5" value="Servidor ORACLE" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="414" y="420" width="136" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="SAT-WEB" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="8" value="SAT-WEB" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="90" y="50" width="150" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="SAT-ANALITICS" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="9" value="SAT-ANALITICS" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="90" y="150" width="150" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="SAT-SERVICES.jar" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="10" value="SAT-SERVICES.jar" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="95" y="340" width="150" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="SAT-ETL-ANALITICS" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="11" value="SAT-ETL-ANALITICS" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="95" y="450" width="150" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;" edge="1" parent="1" source="5" target="11">
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;" parent="1" source="5" target="11" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="14">
+                <mxCell id="32" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
                     <mxGeometry x="0.1029" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;" edge="1" parent="1" source="5" target="10">
+                <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;" parent="1" source="5" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="330" y="445"/>
@@ -44,15 +44,15 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="31" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="15">
+                <mxCell id="31" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="15" vertex="1" connectable="0">
                     <mxGeometry x="0.0857" y="-8" relative="1" as="geometry">
                         <mxPoint y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=115;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="8" target="9">
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=115;entryDy=30;entryPerimeter=0;" parent="1" source="8" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;exitX=0;exitY=0;exitDx=150;exitDy=42.5;exitPerimeter=0;" edge="1" parent="1" source="10" target="8">
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;exitX=0;exitY=0;exitDx=150;exitDy=42.5;exitPerimeter=0;" parent="1" source="10" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="180" y="330" as="sourcePoint"/>
                         <Array as="points">
@@ -61,12 +61,12 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="27" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                <mxCell id="27" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="17" vertex="1" connectable="0">
                     <mxGeometry x="0.3658" y="-1" relative="1" as="geometry">
                         <mxPoint y="-1" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;" edge="1" parent="1" source="11" target="9">
+                <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;" parent="1" source="11" target="9" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="270" y="490"/>
@@ -74,41 +74,49 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="28" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="18">
+                <mxCell id="28" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="18" vertex="1" connectable="0">
                     <mxGeometry x="0.6072" y="4" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="SSO" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="19" value="SSO" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="414" y="240" width="145" height="110" as="geometry"/>
                 </mxCell>
-                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=42.5;entryPerimeter=0;" edge="1" parent="1" source="19" target="8">
+                <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=42.5;entryPerimeter=0;" parent="1" source="19" target="8" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="20">
+                <mxCell id="29" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="20" vertex="1" connectable="0">
                     <mxGeometry x="-0.3437" y="-6" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="19" target="10">
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=30;entryPerimeter=0;" parent="1" source="19" target="10" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="21">
+                <mxCell id="30" value="tcp" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="21" vertex="1" connectable="0">
                     <mxGeometry x="0.0488" y="3" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="Servicios de exposición(ssl, firewalls, balanceadores, antivirus" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="22" value="Servicios de exposición(ssl, firewalls, balanceadores, antivirus" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="25" y="-80" width="615" height="65" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=65;entryDy=312.5;entryPerimeter=0;" edge="1" parent="1" source="8" target="22">
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=65;entryDy=312.5;entryPerimeter=0;" parent="1" source="8" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Descripción&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Diagrama basado en la consultas realizadas, no representa la distribución arquitectonica del Ministerio de Educación&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Los nombres de los servidores son descriptivos.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Versiones y tecnologías serán serán sometidos a validación&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+                <mxCell id="24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Descripción&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Diagrama basado en la consultas realizadas, no representa la distribución arquitectonica del Ministerio de Educación&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Los nombres de los servidores son descriptivos.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Versiones y tecnologías serán serán sometidos a validación&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="350" y="20" width="390" height="190" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;Diagrama de despliegue&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                <mxCell id="26" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;&lt;u&gt;Diagrama de despliegue&amp;nbsp;&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="-40" y="-140" width="780" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="SMTP" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="409.5" y="360" width="145" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="tcp" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0;entryDx=150;entryDy=55;entryPerimeter=0;" edge="1" parent="1" source="34" target="10">
+                    <mxGeometry x="-0.5473" y="-5" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
