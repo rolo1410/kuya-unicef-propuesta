@@ -2,93 +2,226 @@
 
 \subsection{Enfoque Metodológico}
 
-Para el desarrollo de este proyecto se adoptará una metodología ágil basada en \textbf{Scrum}, que permitirá una entrega iterativa e incremental del producto, garantizando la adaptabilidad a los cambios y la participación activa del cliente durante todo el proceso de desarrollo.
+Para el desarrollo de este proyecto se adoptará una metodología ágil basada en \textbf{Scrum}, que permitirá una entrega iterativa e incremental de los productos, garantizando la adaptabilidad a los cambios y la participación activa del cliente durante todo el proceso de desarrollo.
 
 \subsection{Fases del Proyecto}
 
-\subsubsection{Fase 1: Análisis y Planificación}
-\begin{itemize}
-    \item Análisis detallado de requerimientos
-    \item Definición de la arquitectura del sistema
-    \item Planificación de sprints y cronograma
-    \item Configuración del entorno de desarrollo
-\end{itemize}
+Tomando en cuenta las fases planteadas en los terminos de referencia, se ajustará la metodología para cumplir con los entregables y cronogramas establecidos.
 
-\subsubsection{Fase 2: Desarrollo Iterativo}
 \begin{itemize}
-    \item Sprints de 2-3 semanas
-    \item Desarrollo de funcionalidades por prioridad
-    \item Revisiones y demos regulares con el cliente
-    \item Pruebas continuas e integración
-\end{itemize}
+    \item \textbf{Producto 1}: Documento de diagnóstico, restructuración y mejora del sistema de alerta temprana SAT (Plan de trabajo).
 
-\subsubsection{Fase 3: Pruebas y Validación}
-\begin{itemize}
-    \item Pruebas unitarias y de integración
-    \item Pruebas de usuario y aceptación
-    \item Corrección de errores y optimización
-    \item Validación de requerimientos
-\end{itemize}
+    Principales actores:
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Coordinador Técnico & Ministerio de Educación & Enlace técnico y validador de los entregables por parte del cliente \\
+            \hline
+            Arquitecto de Software & KUYACODE & Encargado del diseño de la arquitectura técnica y tecnológica del sistema \\
+            \hline
+            Administrador de Proyectos (PM) & KUYACODE & Responsable de la gestión, planificación y seguimiento del proyecto \\
+            \hline
+        \end{tabular}
+        \caption{Principales actores involucrados en el Producto 1}
+        \label{tab:actores_producto1}
+    \end{table}
+    
+    \item \textbf{Producto 2}: Documento para el rediseño del Sistema de Alerta Temprana SAT conforme a los lineamientos del Ministerio de Educación, Deporte y Cultura.\\
+    \begin{table}[htbp]
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Coordinador Técnico & Ministerio de Educación & Enlace técnico y validador de los entregables por parte del cliente \\
+            \hline
+            Arquitecto de Software & KUYACODE & Responsable de recopilar y documentar los requerimientos funcionales y no funcionales del sistema \\
+            \hline
+            Administrador de proyecto& KUYACODE & Responsable de la gestión y comunicación del proyecto e involucrados \\
+            \hline
+        \end{tabular}
+        \caption{Principales actores involucrados en el Producto 2}
+        \label{tab:actores_producto2}
+    \end{table}
+    \\
 
-\subsubsection{Fase 4: Despliegue y Entrega}
-\begin{itemize}
-    \item Preparación del entorno de producción
-    \item Migración de datos (si aplica)
-    \item Capacitación de usuarios
-    \item Documentación técnica y de usuario
-\end{itemize}
+    \item \textbf{Producto 3}: Correcciones, reestructuración y mejora de la plataforma de acuerdo con el detalle de Requerimiento Funcional sobre la plataforma de Desarrollo proporcionada por el Ministerio de Educación, Deporte y Cultura.\\
 
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Coordinador Técnico & Ministerio de Educación & Enlace técnico y validador de los entregables por parte del cliente \\
+            \hline
+            Administrador de proyecto & KUYACODE & Responsable de la gestión y comunicación del proyecto e involucrados \\
+            \hline
+            Arquitecto de Software & KUYACODE & Responsable de la definición de la arquitectura técnica y tecnológica del sistema, desarrollo de prototipos y validación de soluciones \\
+            \hline
+            Desarrollador Senior & KUYACODE & Encargado de la implementación de las correcciones y mejoras funcionales definidas en los terminos de referencia y levantamiento de requerimientos \\
+            \hline
+            Desarrollador Senior WEB & KUYACODE & Encargado de la implementación de las correcciones y mejoras funcionales web definidas en los terminos de referencia y levantamiento de requerimientos \\
+            \hline
+            Analista de datos & KUYACODE & Encargado de la implementación de la analítica de datos del sistema \\
+            \hline
+        \end{tabular}
+        \caption{Principales actores involucrados en el Producto 3}
+        \label{tab:actores_producto3}
+        \end{table}
+
+    \item \textbf{Producto 4}: Informe de pruebas del funcionamiento del Sistema de Alerta Temprana SAT.\\
+    
+    \begin{table}[htbp]
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Coordinador Técnico & Ministerio de Educación & Validador de los resultados de pruebas por parte del cliente \\
+            \hline
+            Administrador de proyecto & KUYACODE & Responsable de la gestión y comunicación del proyecto e involucrados \\
+            \hline
+            QA Engineer & KUYA & Responsable de diseñar y ejecutar las pruebas funcionales y no funcionales del sistema \\
+            \hline
+            Arquitecto de Software & KUYA & Supervisor técnico de las pruebas y validación de resultados \\
+            \hline
+        \end{tabular}
+        \caption{Principales actores involucrados en el Producto 4}
+        \label{tab:actores_producto4}
+    \end{table}
+
+    \item \textbf{Producto 5}: Informe de implementación definitiva del sistema en un ambiente productivo.\\
+    
+    \begin{table}[h]            
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Administrador de Sistemas & Ministerio de Educación & Responsable de la infraestructura y soporte del ambiente productivo \\
+            \hline
+            Coordinador Técnico & KUYACODE & Responsable del despliegue y configuración en ambiente productivo \\
+            \hline
+            Administrador de Proyectos (PM) & KUYACODE & Coordinador de la implementación y seguimiento de actividades \\
+            \hline
+        \end{tabular}   
+        \caption{Principales actores involucrados en el Producto 5}
+        \label{tab:actores_producto5}
+    \end{table}
+
+    \item \textbf{Producto 6}: Plan de capacitación que incluya fechas de las sesiones de capacitación acordadas, aprobado por la Dirección de Gestión de Riesgos.
+    
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Capacitador Técnico & KUYA & Responsable del diseño e impartición de las capacitaciones técnicas \\
+            \hline
+            Administrador de Proyectos (PM) & KUYACODE & Impartir las capacitaciones funcionales y supervisar su ejecución \\
+            \hline
+            Arquitecto de software & KUYACODE & Impartir las capacitaciones técnicas y supervisar su ejecución \\
+            \hline
+        \end{tabular}
+        \caption{Principales actores involucrados en el Producto 6}
+        \label{tab:actores_producto6}
+    \end{table} 
+    \item \textbf{Producto 7}: Informe de soporte técnico que incluya los ajustes realizados. Acta de cierre técnico aprobada por la Dirección de Gestión de Riesgos y la Coordinación Nacional de TICS.
+
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Soporte Técnico & KUYA & Responsable de brindar soporte técnico y realizar ajustes necesarios \\
+            \hline
+            Administrador de Proyectos (PM) & KUYA & Coordinador del cierre técnico y documentación final \\
+            \hline
+            Director de Gestión de Riesgos & Ministerio de Educación & Aprobador del acta de cierre técnico \\
+            \hline
+            Coordinador Nacional de TICS & Ministerio de Educación & Co-aprobador del acta de cierre técnico \\
+            \hline
+        \end{tabular}
+        \caption{Principales actores involucrados en el Producto 7}
+        \label{tab:actores_producto7}
+    \end{table}
+    \item \textbf{Producto 8}: Certificado de garantía de funcionamiento.
+    \begin{table}[ht]
+        \centering
+        \begin{tabular}{|p{3cm}|p{5cm}|p{7cm}|}
+            \hline
+            \textbf{Rol} & \textbf{Entidad} & \textbf{Descripción} \\
+            \hline
+            Gerente de Proyecto & KUYA & Responsable de emitir el certificado de garantía y comprometerse con el soporte \\
+            \hline
+            Arquitecto de Software & KUYA & Validador técnico de la calidad y funcionamiento del sistema \\
+            \hline
+            Director de Gestión de Riesgos & Ministerio de Educación & Receptor y validador del certificado de garantía \\
+            \hline
+        \end{tabular}
+        \caption{Principales actores involucrados en el Producto 8}
+        \label{tab:actores_producto8}
+    \end{table}
+\end{itemize}
 \subsection{Herramientas y Tecnologías}
-
 \subsubsection{Gestión de Proyecto}
+La propuesta incluye la intervención de un Administrador de proyectos (PM) que utilizará herramientas ágiles para la gestión y seguimiento del proyecto, tales como:
 \begin{itemize}
-    \item \textbf{Jira/Trello}: Gestión de tareas y seguimiento
-    \item \textbf{Confluence}: Documentación colaborativa
-    \item \textbf{Slack/Teams}: Comunicación del equipo
+    \item \textbf{Libre Project}: Gestión de proyectos, para la planificación y seguimiento de tareas, hitos y recursos del proyecto.
+    \item \textbf{Confluence}: Plataforma de colaboración para la documentación del proyecto, permitiendo la creación y gestión de documentos técnicos, actas de reuniones y otros recursos relevantes.
+    \item \textbf{skalydraw}: Herramienta para la creación de diagramas y flujogramas que faciliten la visualización de procesos y arquitecturas del sistema.
 \end{itemize}
-
 \subsubsection{Control de Versiones}
+El manejo del código fuente se realizará utilizando las siguientes herramientas:
 \begin{itemize}
-    \item \textbf{Git}: Control de versiones distribuido
-    \item \textbf{GitHub/GitLab}: Repositorio centralizado
-    \item \textbf{Branching strategy}: GitFlow para organización de código
+    \item \textbf{Git}: Plataforma de control de versiones gestionado por el ministerio Ministerio de Educación, Cultura y deporte, con acceso para los desarrolladores y el equipo de QA.
+    Si el Ministerio de Educación lo requiere, se creará una organización en GitHub con acceso privado a un equipo limitado.
 \end{itemize}
-
+\subsubsection{Documentación}
+La documentación generada del proyecto será almacenada y gestionada utilizando:
+\begin{itemize}
+    \item \textbf{Git-Wiki}: Permite generar una wiki con la documentación del proyecto, asi tambien el versionamiento del mismo.
+    \item \textbf{Swagger}: Documentación de APIs RESTful, permitiendo una fácil comprensión y uso por parte de los desarrolladores y clientes de las aplicaciones.
+    \item \textbf{Docs}: Generador de documentación técnica a partir de comentarios en el código fuente.
+\end{itemize}
 \subsubsection{Desarrollo y Testing}
+El desarrollo y testing se realizará utilizando las siguientes herramientas y tecnologías:
 \begin{itemize}
-    \item \textbf{IDE}: Visual Studio Code, IntelliJ IDEA
+    \item \textbf{IDE}: Visual Studio Code, IntelliJ IDEA, Eclipse IDEA
+    \item \textbf{Lenguajes de Programación}: Java, JavaScript/TypeScript, Python
+    \item \textbf{Frameworks}: Spring Boot, React, Angular, Node.js
     \item \textbf{Testing}: Jest, JUnit, Selenium
-    \item \textbf{CI/CD}: Jenkins, GitHub Actions
 \end{itemize}
-
 \subsection{Aseguramiento de Calidad}
-
-\subsubsection{Estándares de Código}
+La validación y aseguramiento de la calidad del software se llevará a cabo mediante las siguientes prácticas:
 \begin{itemize}
-    \item Revisiones de código (Code Reviews)
-    \item Estándares de nomenclatura y documentación
-    \item Análisis estático de código
-    \item Métricas de cobertura de pruebas
+    \item \textbf{Codestyler}: Herramienta para el análisis y formateo del código fuente, asegurando el cumplimiento de las convenciones de estilo.
+    \item \textbf{SonarQube}: Análisis estático de código para identificar vulnerabilidades, bugs y code smells.
+    \item \textbf{Pruebas Unitarias}: Implementación de pruebas unitarias para validar el correcto funcionamiento de los componentes individuales del software integradas en la construcción de la solución.
+    \item \textbf{Pruebas de integración}: Validación de la interacción entre diferentes módulos del sistema.
+    \item \textbf{Pruebas de aceptación}: Validación final por parte del cliente para asegurar que el producto cumple con los requerimientos especificados mediante la revisión y aprobación funcional.
 \end{itemize}
-
 \subsubsection{Proceso de Testing}
+La estrategia de testing incluirá:
 \begin{itemize}
-    \item \textbf{Test-Driven Development (TDD)}: Desarrollo guiado por pruebas
     \item \textbf{Pruebas automatizadas}: Unitarias, integración y funcionales
     \item \textbf{Pruebas manuales}: Exploratorias y de usabilidad
     \item \textbf{Performance testing}: Pruebas de carga y rendimiento
 \end{itemize}
-
 \subsection{Comunicación y Seguimiento}
-
 \subsubsection{Reuniones Regulares}
+La propuesta incluye la realización de reuniones regulares para el seguimiento del proyecto, incluyendo:
 \begin{itemize}
-    \item \textbf{Daily Standup}: Reuniones diarias de 15 minutos
-    \item \textbf{Sprint Planning}: Planificación al inicio de cada sprint
-    \item \textbf{Sprint Review}: Demostración al final de cada sprint
-    \item \textbf{Sprint Retrospective}: Análisis de mejoras
+    \item \textbf{Daily Standup}: Reuniones diarias de 15 minutos, con el equipo de desarrollo para revisar el progreso y obstáculos, con la participación del PM, desarrolladores y líderes técnicos y contraparte funcional.
+    \item \textbf{Sprint Planning}: Planificación al inicio de cada sprint, reunión para definir las tareas y objetivos del sprint cada 15 días. con los participación de el PM, desarrolladores, líderes técnicos y contraparte funcional.
+    \item \textbf{Sprint Review}: Demostración al final de cada sprint cada 5 días.
 \end{itemize}
-
 \subsubsection{Reportes y Métricas}
 \begin{itemize}
     \item Burndown charts para seguimiento del progreso
@@ -96,9 +229,7 @@ Para el desarrollo de este proyecto se adoptará una metodología ágil basada e
     \item Métricas de calidad y rendimiento
     \item Documentación de lecciones aprendidas
 \end{itemize}
-
 \subsection{Gestión de Riesgos}
-
 \begin{itemize}
     \item Identificación temprana de riesgos técnicos y de proyecto
     \item Plan de contingencia para escenarios críticos
