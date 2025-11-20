@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761518945.96868 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/economica/main.tex" "main.pdf" "main" 1761518947.45153 0
+["pdflatex"] 1761531441.31475 "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/economica/main.tex" "main.pdf" "main" 1761531442.66407 0
   "/Volumes/Transcend/workspace/unificef/kuya-unicef-propuesta/propuestas/economica/main.tex" 1761518944.12 1229 4e666fa15575ca2203cb732ba59b9972 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -104,11 +104,11 @@
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "0_portada.tex" 1761516815.94 1122 67ab26d0781f0107281eae17e1c49377 ""
   "1_resumen_ejecutivo.tex" 1761518925.82 7590 95e2e2261b295d967c5c9d79ae9c2986 ""
-  "2_informacion_empresa.tex" 1761518615.85 562 83e1955192894e604308fbee5ee37e15 ""
-  "main.aux" 1761518946.92 3686 936ddce39aa346ea194c39035ee7b9ee "pdflatex"
-  "main.out" 1761518946.99 2161 ef4dfe7fbc4cd40bd4ea450da3238e05 "pdflatex"
+  "2_informacion_empresa.tex" 1761531439.63 564 9e2a1ad5753aa60b5d03a4dde11964d0 ""
+  "main.aux" 1761531442.15 3688 32b4638d88d67939e4967226f1d1aa77 "pdflatex"
+  "main.out" 1761531442.2 2175 ff176124e2335f854551b0d4f46d02b9 "pdflatex"
   "main.tex" 1761518944.12 1229 4e666fa15575ca2203cb732ba59b9972 ""
-  "main.toc" 1761518947.27 1236 6e3c7fcd434c1200f4d601ad355a99c4 "pdflatex"
+  "main.toc" 1761531442.45 1238 2e7197fd2ed710ce36ecf2117aff5847 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

@@ -132,6 +132,8 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
@@ -286,6 +288,14 @@ INPUT ./graficos/arquitectura.png
 INPUT ./6_recursos_tecnicos.tex
 INPUT ./6_recursos_tecnicos.tex
 INPUT 6_recursos_tecnicos.tex
+INPUT ./6_a_planificacion.tex
+INPUT ./6_a_planificacion.tex
+INPUT 6_a_planificacion.tex
+INPUT ./graficos/planificacion_captura.png
+INPUT ./graficos/planificacion_captura.png
+INPUT ./graficos/planificacion_captura.png
+INPUT ./graficos/planificacion_captura.png
+INPUT ./graficos/planificacion_captura.png
 INPUT ./7_riesgo_mitigacion.tex
 INPUT ./7_riesgo_mitigacion.tex
 INPUT 7_riesgo_mitigacion.tex

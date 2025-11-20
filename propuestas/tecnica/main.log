@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  25 OCT 2025 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.10)  26 OCT 2025 22:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -362,6 +362,13 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen189
 \titlewidthlast=\dimen190
 \titlewidthfirst=\dimen191
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count310
+\float@exts=\toks32
+\float@box=\box62
+\@float@everytoks=\toks33
+\@floatcapt=\box63
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2025/03/03 v4.56 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
@@ -369,15 +376,15 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
  (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks32
-\XKV@tempa@toks=\toks33
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
 )
-\XKV@depth=\count310
+\XKV@depth=\count311
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
 Package: mfirstuc 2022/10/14 v2.08 (NLCT)
-\@glsmfirst=\toks34
-\@glsmrest=\toks35
+\@glsmfirst=\toks36
+\@glsmrest=\toks37
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/xfor/xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
@@ -391,51 +398,51 @@ Package: datatool-base 2025/03/05 v3.0.1 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-l3fp.def
 File: datatool-l3fp.def 2025/03/05 v3.0.1 (NLCT)
 )
-\@dtl@toks=\toks36
-\@dtl@tmpcount=\count311
+\@dtl@toks=\toks38
+\@dtl@tmpcount=\count312
 \dtl@tmplength=\skip77
-\l__datatool_measure_box=\box62
-\dtl@sortresult=\count312
+\l__datatool_measure_box=\box64
+\dtl@sortresult=\count313
  (/usr/local/texlive/2025/texmf-dist/tex/latex/datatool/datatool-utf8.ldf
 File: datatool-utf8.ldf 2025/03/05 v3.0.1 (NLCT)
 )
-\@dtl@datatype=\count313
-\l__datatool_tmpa_int=\count314
-\l__datatool_tmpb_int=\count315
-\l__datatool_tmpc_int=\count316
-\l__datatool_tmpd_int=\count317
-\l__datatool_count_int=\count318
-\l__datatool_tmp_datatype_int=\count319
+\@dtl@datatype=\count314
+\l__datatool_tmpa_int=\count315
+\l__datatool_tmpb_int=\count316
+\l__datatool_tmpc_int=\count317
+\l__datatool_tmpd_int=\count318
+\l__datatool_count_int=\count319
+\l__datatool_tmp_datatype_int=\count320
 \l__datatool_tmpa_dim=\dimen192
 \l__datatool_tmpb_dim=\dimen193
-\c_datatool_unknown_int=\count320
-\l__datatool_year_int=\count321
-\l__datatool_month_int=\count322
-\l__datatool_day_int=\count323
-\l__datatool_hour_int=\count324
-\l__datatool_minute_int=\count325
-\l__datatool_second_int=\count326
-\l__datatool_tzhour_int=\count327
-\l__datatool_tzminute_int=\count328
-\l__datatool_julian_int=\count329
-\l__datatool_local_julian_int=\count330
-\l__datatool_prefix_int=\count331
-\l__datatool_suffix_int=\count332
-\@dtl@foreach@level=\count333
+\c_datatool_unknown_int=\count321
+\l__datatool_year_int=\count322
+\l__datatool_month_int=\count323
+\l__datatool_day_int=\count324
+\l__datatool_hour_int=\count325
+\l__datatool_minute_int=\count326
+\l__datatool_second_int=\count327
+\l__datatool_tzhour_int=\count328
+\l__datatool_tzminute_int=\count329
+\l__datatool_julian_int=\count330
+\l__datatool_local_julian_int=\count331
+\l__datatool_prefix_int=\count332
+\l__datatool_suffix_int=\count333
+\@dtl@foreach@level=\count334
 
 
 Package tracklang Warning: No `datatool' support for dialect `spanish'  on input line 9897.
 
-\dtl@codeA=\count334
-\dtl@codeB=\count335
+\dtl@codeA=\count335
+\dtl@codeB=\count336
 )
-\gls@level=\count336
-\@gls@tmpb=\toks37
+\gls@level=\count337
+\@gls@tmpb=\toks39
 \gls@tmplen=\skip78
-\glskeylisttok=\toks38
-\glslabeltok=\toks39
-\glsshorttok=\toks40
-\glslongtok=\toks41
+\glskeylisttok=\toks40
+\glslabeltok=\toks41
+\glsshorttok=\toks42
+\glslongtok=\toks43
  (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
 Package: glossary-hypernav 2025/03/03 v4.56 (NLCT)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
@@ -449,7 +456,7 @@ Package: glossary-long 2025/03/03 v4.56 (NLCT)
 Package: glossary-super 2025/03/03 v4.56 (NLCT)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2024/07/20 v4.2c the supertabular environment
-\c@tracingst=\count337
+\c@tracingst=\count338
 \ST@wd=\dimen194
 \ST@rightskip=\skip82
 \ST@leftskip=\skip83
@@ -463,12 +470,12 @@ Package: supertabular 2024/07/20 v4.2c the supertabular environment
 \ST@prevht=\dimen257
 \ST@toadd=\dimen258
 \ST@dimen=\dimen259
-\ST@pbox=\box63
+\ST@pbox=\box65
 )) (/usr/local/texlive/2025/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
 Package: glossary-tree 2025/03/03 v4.56 (NLCT)
 \glstreeindent=\skip85
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 42.
+Package hyperref Info: Option `colorlinks' set `true' on input line 45.
  (./glosario.tex
 \glswrite=\write3
 \glo@main@file=\write4
@@ -481,34 +488,34 @@ Package glossaries Info: Writing glossary file main.glo on input line 10.
 Package glossaries Info: Writing glossary file main.acn on input line 10.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
-\l__pdf_internal_box=\box64
+\l__color_backend_stack_int=\count339
+\l__pdf_internal_box=\box66
 ) (./main.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Info: Redefining \. on input line 47.
-LaTeX Info: Redefining \% on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Info: Redefining \. on input line 50.
+LaTeX Info: Redefining \% on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -546,24 +553,24 @@ LaTeX Info: Redefining \% on input line 47.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
+\scratchcounter=\count340
 \scratchdimen=\dimen260
-\scratchbox=\box65
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count342
+\scratchbox=\box67
+\nofMPsegments=\count341
+\nofMParguments=\count342
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count343
 \MPscratchDim=\dimen261
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks43
+\MPnumerator=\count344
+\makeMPintoPDFobject=\count345
+\everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 47.
+Package hyperref Info: Link coloring ON on input line 50.
  (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
@@ -751,7 +758,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10]
+[10
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.53 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.53 
+     ]
 Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/cmr/m/n/12 Coordinador
  []
@@ -848,7 +865,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11]
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.118 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.118 
+      ]
 Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []|\OT1/cmr/m/n/12 Capacitador
  []
@@ -899,6 +926,9 @@ Overfull \hbox (9.14719pt too wide) in paragraph at lines 139--152
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 164--164
 []|\OT1/cmr/m/n/12 Arquitecto de
  []
@@ -917,7 +947,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12]
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.184     \item \textbf
+                       {Git}: Plataforma de control de versiones gestionado ...
+pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.184     \item \textbf
+                       {Git}: Plataforma de control de versiones gestionado ...]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -926,7 +966,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[13]
+[13
+pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.197     \item \textbf
+                       {IDE}: Visual Studio Code, IntelliJ IDEA, Eclipse IDEA
+pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.197     \item \textbf
+                       {IDE}: Visual Studio Code, IntelliJ IDEA, Eclipse IDEA]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -945,7 +995,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15] (./5_arquitectura.tex
-<graficos/arquitectura.png, id=404, 783.92876pt x 753.81625pt>
+<graficos/arquitectura.png, id=424, 783.92876pt x 753.81625pt>
 File: graficos/arquitectura.png Graphic file (type png)
 <use graficos/arquitectura.png>
 Package pdftex.def Info: graficos/arquitectura.png  used on input line 9.
@@ -959,7 +1009,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./graficos/arquitectura.png>]
+[16
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.24     \item \textbf
+                      {Portal web, SAT-WEB}: Interfaz web para la gestión d... <./graficos/arquitectura.png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -977,7 +1032,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18] (./6_recursos_tecnicos.tex
+[18
+pdfTeX warning (ext4): destination with the same identifier (name{table.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.76 \newpage
+             ] (./6_recursos_tecnicos.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1004,7 +1064,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21] (./7_riesgo_mitigacion.tex
+[21] (./6_a_planificacion.tex
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+<graficos/planificacion_captura.png, id=465, 1298.8525pt x 682.55pt>
+File: graficos/planificacion_captura.png Graphic file (type png)
+<use graficos/planificacion_captura.png>
+Package pdftex.def Info: graficos/planificacion_captura.png  used on input line 53.
+(pdftex.def)             Requested size: 455.24411pt x 239.22935pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 26--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--83
+
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23
+pdfTeX warning (ext4): destination with the same identifier (name{table.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.83 \newpage
+             
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.83 \newpage
+              <./graficos/planificacion_captura.png>] (./7_riesgo_mitigacion.tex
 Overfull \hbox (18.95563pt too wide) in paragraph at lines 34--34
 []|\OT1/cmr/bx/n/12 Probabilidad| 
  []
@@ -1046,7 +1150,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22])
+[24])
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1055,7 +1159,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23] (./8_conclusiones.tex) (./10_firmas.tex)
+[25
+pdfTeX warning (ext4): destination with the same identifier (name{table.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.87 \newpage
+             ] (./8_conclusiones.tex) (./10_firmas.tex
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1064,7 +1173,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[24]
+[26])
 No file main.gls.
 
 
@@ -1075,7 +1184,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25] (./9_anexos.tex) (./main.aux
+[27] (./9_anexos.tex)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28] (./main.aux
 LaTeX Info: Redefining \. on input line 18.
 LaTeX Info: Redefining \% on input line 18.
 )
@@ -1084,21 +1202,21 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E63AED0C416B2CC73DE468B1D6803598;10188.
+(rerunfilecheck)             Checksum: 4F41A0F3158F6DF83AE14C89E402DF73;11124.
  ) 
 Here is how much of TeX's memory you used:
- 21072 strings out of 473190
- 373855 string characters out of 5715800
- 848116 words of memory out of 5000000
- 43933 multiletter control sequences out of 15000+600000
+ 21169 strings out of 473190
+ 375484 string characters out of 5715800
+ 850644 words of memory out of 5000000
+ 44012 multiletter control sequences out of 15000+600000
  568158 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,79p,2429b,802s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (26 pages, 206104 bytes).
+Output written on main.pdf (29 pages, 353572 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 471 compressed objects within 5 object streams
- 111 named destinations out of 1000 (max. 500000)
- 486 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 565 PDF objects out of 1000 (max. 8388607)
+ 506 compressed objects within 6 object streams
+ 122 named destinations out of 1000 (max. 500000)
+ 523 words of extra memory for PDF output out of 10000 (max. 10000000)
 
